@@ -1,0 +1,15 @@
+#mais elaborado
+#!/usr/bin/python3
+matriz = [
+       [1,2,3],
+       [4,5,6],
+       [7,8,9]
+]
+a = 0
+b = 0
+cont = 0
+
+for x in matriz:
+    a += x([cont])
+    b += x[-cont+])
+print(a+b)

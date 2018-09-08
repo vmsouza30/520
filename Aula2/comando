@@ -1,0 +1,17 @@
+git init # Inicia o projeto
+git status # Verifica o status
+git add . # Adiciona arquivos
+git commit -m 'mensagem' # Commita
+git remote add origin https://github.com/vmsouza30/520.git #para subir no git hub qdo se criar um novo repositorio
+git push origin master # Sobe na nuvem
+git pull # Atualiza repositorio local com a nuvem
+
+
+git clone https://github.com/vmsouza30/520.git   #clonar projetos de outros repositorios ou criar uma copia do repositorio proprio
+git config --global user.name "vmsouza30"      # so para assumir o usuário responsavel caso a maquina não seja sua, irá ser aplicado para os novos arquivos.
+git config --global user.email vmsouza30@yahoo.com.br
+
+
+.gitignore # ignorar arquivos
+
+
