@@ -10,3 +10,26 @@ git pull # Atualiza repositorio local com a nuvem
 git clone https://github.com/vmsouza30/520.git   #clonar projetos de outros repositorios ou criar uma copia do repositorio proprio
 git config --global user.name "vmsouza30"      # so para assumir o usuário responsavel caso a maquina não seja sua, irá ser aplicado para os novos arquivos.
 git config --global user.email vmsouza30@yahoo.com.br
+
+
+***************** comandos linux stop service*************
+https://pplware.sapo.pt/microsoft/windows/troque-powershell-pelo-dos-no-windows-10/
+
+https://1drv.ms/b/s!AkrLlnCoIiivlmd7SAe0l26I1RUS
+
+sudo apt-get update
+sudo apt-get install python3-pip
+sudo pip3 install bpython
+sudo pip3 install ipython
+
+sudo su
+systemctl stop jenkins
+systemctl stop postgresql
+systemctl stop mongodb
+systemctl stop mysql
+
+systemctl disable
+
+ss -ntlp
+echo \#\!$(which python3) > arquivo.py
+chmod +x $(ls)
